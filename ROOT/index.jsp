@@ -31,6 +31,8 @@ String code = request.getParameter("code");
         <textarea name="code" rows="20" cols="140" style="width: 95%;"
 >
 System.out.println("OKOK");
+System.out.println("OK888OK");
+System.out.println(System.currentTimeMillis());
 </textarea>
         <br/>
         <button type="submit">提交</button>
@@ -40,7 +42,7 @@ System.out.println("OKOK");
 <div>
     <iframe id="_result" name="_result" width="95%"></iframe>
 </div>
-
+<br/>
 <div>
     源码地址:  <a href="https://github.com/codemima/duapp_cncrunner_src" target="_blank">https://github.com/codemima/duapp_cncrunner_src</a>
 </div>
